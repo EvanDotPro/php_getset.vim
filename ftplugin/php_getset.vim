@@ -272,12 +272,10 @@ else
   \ "\n" .
   \ "   /**\n" .
   \ "    * @param $%varnameclean%\n" .
-  \ "    * @return self\n" .
   \ "    */\n" .
   \ "   public function %funcname%($%varnameclean%)\n" .
   \ "   {\n" .
   \ "       $this->%varname% = $%varnameclean%;\n" .
-  \ "       return $this;\n" .
   \ "   }"
 endif
 
